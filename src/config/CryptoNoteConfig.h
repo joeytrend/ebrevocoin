@@ -37,9 +37,9 @@ const uint32_t ZAWY_DIFFICULTY_BLOCK_INDEX                   = 187000;
 const size_t   ZAWY_DIFFICULTY_V2                            = 0;
 const uint8_t  ZAWY_DIFFICULTY_DIFFICULTY_BLOCK_VERSION      = 3;
 
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 620000;
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 700000;
-const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 800000;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX                 = 5;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V2              = 10;
+const uint64_t LWMA_2_DIFFICULTY_BLOCK_INDEX_V3              = 15;
 
 const unsigned EMISSION_SPEED_FACTOR                         = 22;
 static_assert(EMISSION_SPEED_FACTOR <= 8 * sizeof(uint64_t), "Bad EMISSION_SPEED_FACTOR");
