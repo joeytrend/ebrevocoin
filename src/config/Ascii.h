@@ -5,11 +5,11 @@
 #pragma once
 
 const std::string windowsAsciiArt =
-      "\n EbrevoCoin = Slogan Goes here \n"
+      "\n EbrevoCoin = Slogan Goes here \n";
     
 
 const std::string nonWindowsAsciiArt = 
-      "\n EbrevoCoin - Slogan Goes Here \n"
+      "\n EbrevoCoin - Slogan Goes Here \n";
    
 
 /* Windows has some characters it won't display in a terminal. If your ascii
